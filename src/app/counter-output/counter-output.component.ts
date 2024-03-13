@@ -18,5 +18,5 @@ export class CounterOutputComponent {
   constructor(private store: Store<{counter: number}>) {
   this.count$ = store.select(selectCount);
   this.doubleCount$ = store.select(selectDoubleCount);
-}
+  }
 }
